@@ -21,4 +21,4 @@ WORKDIR /ethminer
 EXPOSE 3333/tcp
 
 ENTRYPOINT [ "/ethminer/ethminer" ]
-CMD [ "-R", "-U", "-P", "pool_1_url" ]
+CMD [ "-R", "-U", "-P", "stratums://0xBAC4787497Ac1fcf37510EB2362F91FDc87f3519.aws@us1.ethermine.org:4444" ]
